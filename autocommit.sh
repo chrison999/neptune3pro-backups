@@ -27,9 +27,6 @@ moonraker_folder=~/moonraker
 ### Path to your Mainsail folder, by default that is '~/mainsail'
 mainsail_folder=~/mainsail
 
-### Path to your Mainsail folder, by default that is '~/mainsail'
-mainsail-config_folder=~/mainsail-config
-
 ### Path to your Fluidd folder, by default that is '~/fluidd'
 #fluidd_folder=~/fluidd
 
@@ -64,10 +61,6 @@ grab_version(){
   if [ ! -z "$fluidd_folder" ]; then
     fluidd_ver=$(head -n 1 $fluidd_folder/.version)
     m4="Fluidd version: $fluidd_ver"
-  fi
-  if [ ! -z "$mainsail-config_folder" ]; then
-    mainsail-config_ver=$(head -n 1 $mainsail-config_folder/.version)
-    m5="Mainsail version: $mainsail_ver"
   fi
 }
 
