@@ -68,7 +68,7 @@ grab_version(){
 # then update the command below to use the token. Run the command in your base directory and it will
 # handle auth. This should just be executed in your shell and not committed to any files or
 # Github will revoke the token. =)
-# git remote set-url origin https://XXXXXXXXXXX@github.com/EricZimmerman/Voron24Configs.git/
+git remote set-url origin https://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@github.com/chrison999/neptune3pro-backups.git
 # Note that that format is for changing things after the repository is in use, vs initially
 
 push_config(){
